@@ -9,6 +9,7 @@ print(sys.executable)
 
 
 def greet(who_to_greet):
+    text = "text"
     greeting = "Hello, {}".format(who_to_greet)
     return greeting
 
